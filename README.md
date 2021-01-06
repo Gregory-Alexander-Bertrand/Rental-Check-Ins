@@ -1,2 +1,3 @@
 # Rental-Check-Ins
-A copy of the website my company uses to check-in college textbooks
+A copy of the website my company uses to check-in college textbooks.
+I DO NOT WORK IN THE WEB DEVELOPMENT DEPARTMENT AT FOLLET AND THIS REPLICA OF FOLLETT'S COURSETRACKS WEB PAGE IS ONLY FOR MY PRACTICE.
