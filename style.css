@@ -60,15 +60,16 @@ body {
     position: absolute;
     margin-top: 1px;
     margin-left: -5px;
-    background-color: darkslateblue;
+    background-color: #483d8;
     border-radius: 20px;
-    width: auto;
+    width: 50%;
     height: auto;
 }
 
 .navbar ul li:hover .dropdown ul {
-    display: block;
+    display: inline;
     margin: 10px;
+    font-size: 13px;
 }
 
 .navbar ul li:hover .dropdown ul li {
@@ -81,3 +82,6 @@ h1 {
     color: darkslateblue;
 }
 
+.space {
+    margin-left: 4px;
+}
