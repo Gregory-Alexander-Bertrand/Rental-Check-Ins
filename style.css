@@ -85,3 +85,24 @@ h1 {
 .space {
     margin-left: 4px;
 }
+
+section {
+    background-color: lightgray;
+    height: 90px;
+}
+
+.store {
+    width: 10%;
+}
+
+.locaters {
+    text-align: center;
+    padding-top: 5px;
+}
+
+header {
+    font-size: 40px;
+    padding: 10px 0;
+    color: #0000ff;
+    opacity: .3;
+}
