@@ -26,22 +26,58 @@ body {
 }
 
 .first {
-   position: relative;
-   right: 400px;
+    position: relative;
+    width: 100%;
+    right: 400px;
 }
 
-li {
-    display: inline;
+.navbar ul {
+    display: inline-flex;
+    list-style-type: none;
 }
 
-li a {
-    color: #ffffff;
+.navbar ul li {
+    width: 50px;
+    margin: 20px;
+}
+
+.navbar ul li a {
     text-decoration: none;
-    border-right: 1px solid white;
-    padding-right: 12px;
+    color: #ffffff;
+}
+
+
+.navbar li a:hover {
+    color: orangered;
+}
+
+.navbar ul li .dropdown {
+    display: none;
+}
+
+.navbar ul li:hover .dropdown {
+    display: block;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: -5px;
+    background-color: darkslateblue;
+    border-radius: 20px;
+    width: auto;
+    height: auto;
+}
+
+.navbar ul li:hover .dropdown ul {
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .dropdown ul li {
+    width: 50px;
+    padding-top: 1px;
 }
 
 h1 {
     font-size: 20px;
     color: darkslateblue;
 }
+
