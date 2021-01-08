@@ -60,10 +60,11 @@ body {
     position: absolute;
     margin-top: 1px;
     margin-left: -5px;
-    background-color: #483d8;
+    background-color: #483d8b;
     border-radius: 20px;
     width: 50%;
     height: auto;
+    z-index: 100;
 }
 
 .navbar ul li:hover .dropdown ul {
