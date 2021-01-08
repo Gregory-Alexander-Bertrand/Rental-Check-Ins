@@ -141,3 +141,37 @@ h2 {
     height: 40px;
     color: #ffffff;
 }
+
+.transaction {
+    display: inline-flex;
+}
+
+.info {
+    width: 200px;
+    margin-left: 150px;
+    display: block;
+}
+
+.mi {
+    width: 50px;
+    margin-left: 122px;
+}
+
+
+label {
+    display: block;
+    padding: 4px 4px;
+}
+
+.enter {
+    background-color: #0000ff;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 1000;
+    width: 5%;
+    height: 30px;
+    margin: 10px 350px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: pointer;
+}
