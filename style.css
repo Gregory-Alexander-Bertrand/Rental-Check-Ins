@@ -78,6 +78,34 @@ body {
     padding-top: 1px;
 }
 
+#house {
+    color: #ffff00;
+}
+
+#calendar {
+    color: #b22222;
+}
+
+#couple {
+    color: #008000;
+}
+
+#receipt {
+    color: #008000;
+}
+
+#computer {
+    color: #c0c0c0;
+}
+
+#inbox {
+    color: sienna;
+}
+
+#arrow {
+    color: #ffff00;
+}
+
 h1 {
     font-size: 20px;
     color: darkslateblue;
@@ -106,4 +134,10 @@ header {
     padding: 10px 0;
     color: #0000ff;
     opacity: .3;
+}
+
+h2 {
+    background-color: #0000ff;
+    height: 40px;
+    color: #ffffff;
 }
