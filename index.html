@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="indexs.css">
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Alice">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 
 </head>
 <body>
@@ -16,8 +18,12 @@
         </span>
         <div class="navbar">
             <ul class="first">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Planning</a>
+                <li><a href="#"><span class="material-icons" id="house">
+                    home
+                    </span>Home</a></li>
+                <li><a href="#"><span class="material-icons" id="calendar">
+                    event
+                    </span>Planning</a>
                     <div class="dropdown">
                         <ul class="second">
                             <li><a href="#">Maintain<span class="space">Term</span></a></li>
@@ -29,7 +35,9 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="#">Adoptions</a>
+                <li><a href="#"><span class="material-icons" id="couple">
+                    supervisor_account
+                    </span>Adoptions</a>
                     <div class="dropdown">
                         <ul class="second">
                             <li><a href="#">Add<span class="space">Course</span></a></li>
@@ -41,14 +49,18 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="#">Orders</a>
+                <li><a href="#"><span class="material-icons" id="receipt">
+                    receipt
+                    </span>Orders</a>
                     <div class="dropdown">
                         <ul class="second">
                             <li><a href="#">Maintain<space class="space">Order</space><span class="space">Notes</span></a></li>
                         </ul>
                     </div>
                 </li>
-                <li><a href="#">Check-in/buyback</a>
+                <li><a href="#"><span class="material-icons" id="computer">
+                    desktop_windows
+                    </span>Check-in/buyback</a>
                     <div class="dropdown">
                         <ul class="second">
                             <li><a href="#">Conduct<span class="space">Transaction</span></a></li>
@@ -57,7 +69,9 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="#">Recieving</a>
+                <li><a href="#"><span class="material-icons" id="inbox">
+                    inbox
+                    </span>Recieving</a>
                     <div class="dropdown">
                         <ul class="second">
                             <li><a href="#">Recieve<span class="space">Items</span></a></li>
@@ -65,11 +79,13 @@
                         </ul>
                     </div>
                 </li>
-                <li><a href="#">Disposition</a></li>
+                <li><a href="#"><span class="material-icons" id="arrow">
+                    forward
+                    </span>Disposition</a></li>
             </ul>
         </div>
     </div>
-    section>
+    <section>
             <header>CourseTracks</header>
         <div class="locaters">
             <form class="location">
@@ -86,5 +102,34 @@
             </form>
         </div>
     </section>
+
+    <div class="transaction">
+        <h2>Check-In: Conduct Transaction</h2>
+        <div class="customer-info">
+            <h2>Enter Customer Information</h2>
+            <form>
+                <label>
+                    First Name:
+                    <input type="text" name="name" class="name">
+                </label>
+                <label>
+                    Last Name:
+                    <input type="text" name="lname" class="lname">
+                </label>
+                <label>
+                    Phone:
+                    <input type="text" name="phone" class="phone">
+                </label>
+                <label>
+                    Patron ID:
+                    <input type="text" name="ID" class="ID">
+                </label>
+                <label>
+                    Email:
+                    <input type="text" name="email" class="email">
+                </label>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
